@@ -157,8 +157,8 @@ def draw_attributed_graph(G, attribute_dict , pos= None, print_pos= True, filena
                         plt.axis('off')
 
                 if filename is not None : 
-                    savefig('results/' + filename + '.pdf', format='pdf')
-                    savefig('results/' + filename + '.png', format='png')
+                    # savefig( filename + '.pdf', format='pdf')
+                    savefig( filename + '.png', format='png')
 
                     show(block = block)
                 else:
